@@ -6,9 +6,9 @@
 
     <data>
 
-<!--        <variable-->
-<!--            name="viewModel"-->
-<!--            type="com.example.android.devbyteviewer.viewmodels.DevByteViewModel" />-->
+        <variable
+            name="viewModel"
+            type="com.github.seth.devbytes.viewmodels.DevByteViewModel" />
     </data>
 
     <FrameLayout
@@ -20,8 +20,7 @@
             android:id="@+id/loading_spinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-             />
+            android:layout_gravity="center" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_view"
